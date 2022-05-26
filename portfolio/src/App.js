@@ -1,5 +1,6 @@
 import logo from './logo.svg';
 import './App.css';
+import Nav from './Components/Nav';
 
 function App() {
   return (
@@ -7,19 +8,7 @@ function App() {
 
     <header>
         <h1>Lindy Briggs' Portfolio</h1>
-        <nav>
-            <ul>
-                <li>
-                    <a href="#aboutMe">About Me</a>
-                </li>
-                <li>
-                    <a href="#myWork">My Work</a>
-                </li>
-                <li>
-                    <a href="#contactMe">Contact Me</a>
-                </li>
-            </ul>
-        </nav>
+        <Nav></Nav>
     </header>
 
     <section className="mainImage"></section>
