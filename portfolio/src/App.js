@@ -4,6 +4,7 @@ import About from './Components/About';
 import Work from './Components/Work';
 import Contact from './Components/Contact';
 import Resume from './Components/Resume';
+import Footer from './Components/Footer'
 import selfPhoto from './Images/self-photo.jpg'
 
 function App() {
@@ -25,6 +26,8 @@ function App() {
         <Contact></Contact>
         <Resume></Resume>
       </main>
+
+      <Footer></Footer>
 
     </body>
   );
