@@ -9,7 +9,7 @@ function App() {
   return (
     <body id="column">
 
-      <header>
+      <header id="home">
         <h1>Lindy Briggs' Portfolio</h1>
         <Nav></Nav>
       </header>
