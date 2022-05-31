@@ -3,6 +3,7 @@ import Nav from './Components/Nav';
 import About from './Components/About';
 import Work from './Components/Work';
 import Contact from './Components/Contact';
+import Resume from './Components/Resume';
 
 function App() {
   return (
@@ -19,6 +20,7 @@ function App() {
         <About></About>
         <Work></Work>
         <Contact></Contact>
+        <Resume></Resume>
       </main>
 
     </body>

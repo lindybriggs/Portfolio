@@ -13,6 +13,9 @@ export default function Nav() {
                 <li>
                     <a href="#contactMe">Contact Me</a>
                 </li>
+                <li>
+                    <a href="#resume">Resume</a>
+                </li>
             </ul>
         </nav>
     );
