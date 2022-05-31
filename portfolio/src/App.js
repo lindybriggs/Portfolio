@@ -4,6 +4,7 @@ import About from './Components/About';
 import Work from './Components/Work';
 import Contact from './Components/Contact';
 import Resume from './Components/Resume';
+import selfPhoto from './Images/self-photo.jpg'
 
 function App() {
   return (
@@ -14,7 +15,9 @@ function App() {
         <Nav></Nav>
       </header>
 
-      <section className="mainImage"></section>
+      <section className="mainImage">
+      <img src={selfPhoto} alt="self"/>;
+      </section>
 
       <main id="all">
         <About></About>
