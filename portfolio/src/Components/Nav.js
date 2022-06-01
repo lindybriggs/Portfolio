@@ -9,23 +9,24 @@ const inactive = {
 }
 
 export default function Nav({ currentPage, handlePageChange }) {
+    console.log(currentPage)
     return (
         <nav>
             <ul>
                 <li>
-                    <a href="#home" onClick={() => handlePageChange('Home')} style={currentPage === 'Home' ? active : inactive}>Home</a>
+                    <a href="#Home" onClick={() => handlePageChange('Home')} style={currentPage === 'Home' ? active : inactive}>Home</a>
                 </li>
                 <li>
-                    <a href="#aboutMe" onClick={() => handlePageChange('About')} style={currentPage === 'About' ? active : inactive}>About Me</a>
+                    <a href="#About" onClick={() => handlePageChange('About')} style={currentPage === 'About' ? active : inactive}>About Me</a>
                 </li>
                 <li>
-                    <a href="#myWork" onClick={() => handlePageChange('Work')} style={currentPage === 'Work' ? active : inactive}>My Work</a>
+                    <a href="#Work" onClick={() => handlePageChange('Work')} style={currentPage === 'Work' ? active : inactive}>My Work</a>
                 </li>
                 <li>
-                    <a href="#contactMe" onClick={() => handlePageChange('Contact')} style={currentPage === 'Contact' ? active : inactive}>Contact Me</a>
+                    <a href="#Contact" onClick={() => handlePageChange('Contact')} style={currentPage === 'Contact' ? active : inactive}>Contact Me</a>
                 </li>
                 <li>
-                    <a href="#resume" onClick={() => handlePageChange('Resume')} style={currentPage === 'Resume' ? active : inactive}>Resume</a>
+                    <a href="#Resume" onClick={() => handlePageChange('Resume')} style={currentPage === 'Resume' ? active : inactive}>Resume</a>
                 </li>
             </ul>
         </nav>

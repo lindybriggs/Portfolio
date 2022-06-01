@@ -10,7 +10,9 @@ import selfPhoto from './Images/self-photo.jpg'
 
 export default function App() {
 
-  const [currentPage, setCurrentPage] = useState('Home')
+  const initialState = window.location.href.split('#')[1] === undefined ? 'Home' : window.location.href.split('#')[1]
+
+  const [currentPage, setCurrentPage] = useState(initialState)
 
   const renderPage = () => {
     if (currentPage === 'Home') {
