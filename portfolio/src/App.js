@@ -53,7 +53,7 @@ export default function App() {
 
       <Footer></Footer>
 
-      {renderPage()}
+      {/* {renderPage()} */}
     </div>
   );
 }
