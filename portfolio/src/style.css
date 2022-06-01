@@ -49,6 +49,7 @@ li a {
 
 a {
     color: var(--dark);
+    text-decoration: none;
 }
 
 .mainImage {
