@@ -35,7 +35,7 @@ export default function App() {
   return (
     <div id="column">
 
-      <header id="home">
+      <header id="Home">
         <h1>Lindy Briggs' Portfolio</h1>
         <Nav currentPage={currentPage} handlePageChange={handlePageChange} ></Nav>
       </header>

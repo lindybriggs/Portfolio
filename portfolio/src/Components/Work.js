@@ -6,7 +6,7 @@ import schedulerPhoto from '../Images/scheduler.png'
 export default function Work() {
     return (
         <section className="card">
-            <h2 id="myWork" className="titles">My Work</h2>
+            <h2 id="Work" className="titles">My Work</h2>
             <section className="content">
                 <div className="try">
                     <a href="https://therecipeforsuccess.herokuapp.com/" ><img className="bigWork" src={recipePhoto} alt="full stack group project - the recipe for success" /></a>
