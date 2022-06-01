@@ -24,6 +24,7 @@ nav ul {
     justify-content: space-between;
     align-items: flex-end;
     min-width: 360px;
+    list-style: none;
 }
 
 h1, nav {
@@ -41,10 +42,10 @@ li a {
     font-size: 1.2rem;
 }
 
-nav a:hover {
+/* nav a:hover {
     color: var(--dark);
     font-weight: bolder;
-  }
+  } */
 
 a {
     color: var(--dark);

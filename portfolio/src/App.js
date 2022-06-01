@@ -1,4 +1,5 @@
 import './App.css';
+import React, { useState } from 'react';
 import Nav from './Components/Nav';
 import About from './Components/About';
 import Work from './Components/Work';
@@ -7,17 +8,38 @@ import Resume from './Components/Resume';
 import Footer from './Components/Footer'
 import selfPhoto from './Images/self-photo.jpg'
 
-function App() {
+export default function App() {
+
+  const [currentPage, setCurrentPage] = useState('Home')
+
+  const renderPage = () => {
+    if (currentPage === 'Home') {
+      return ;
+    }
+    if (currentPage === 'About') {
+      return <About />;
+    }
+    if (currentPage === 'Work') {
+      return <Work />;
+    }
+    if (currentPage === 'Contact') {
+      return <Contact />;
+    }
+    return <Resume />;
+  };
+
+  const handlePageChange = (page) => setCurrentPage(page);
+
   return (
-    <body id="column">
+    <div id="column">
 
       <header id="home">
         <h1>Lindy Briggs' Portfolio</h1>
-        <Nav></Nav>
+        <Nav currentPage={currentPage} handlePageChange={handlePageChange} ></Nav>
       </header>
 
-      <section className="mainImage">
-      <img src={selfPhoto} alt="self"/>;
+      <section >
+        <img src={selfPhoto} alt="self" className="mainImage"/>
       </section>
 
       <main id="all">
@@ -29,8 +51,8 @@ function App() {
 
       <Footer></Footer>
 
-    </body>
+      {renderPage()}
+    </div>
   );
 }
 
-export default App;
