@@ -1,7 +1,7 @@
 # React Portfolio
 ![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)
 
-A web developer portfolio built using React.
+A web-developer-portfolio built using React.
 
 ## Table of Contents
 <div align="center">
@@ -15,14 +15,14 @@ A web developer portfolio built using React.
     <a href="#further-development"><strong>Further Development</strong></a>
     ·
     <a href="#license"><strong>License</strong></a>
+        ·
+    <a href="#contact"><strong>Contact</strong></a>
   </p>
 </div>
 
 ## Description
 
-```md
 A single-page application serves as a web developer's portfolio, built using the latest technologies, like React. Creates a destination for sharing my projects, which can be useful when applying for jobs, or to share and connect with other developers.
-```
 
 ## Link
 
@@ -40,6 +40,17 @@ Visit the deployed portfolio with GitHub Pages [here](https://lindybriggs.github
 
 In future dev, will consider implementing the following:
     - animations...
+
+
+## Contact
+<div align="center">
+  <p align="center">  
+    <a href="https://github.com/lindybriggs"><strong>GitHub</strong></a>
+    ·
+    <a href="https://www.linkedin.com/in/lindy-briggs/"><strong>LinkedIn</strong></a>
+  </p>
+</div>
+
 
 ### License
 
