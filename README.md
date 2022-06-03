@@ -4,12 +4,19 @@
 A web developer portfolio built using React.
 
 ## Table of Contents
-
-- [Description](#description)
-- [Link](#link)
-- [Features](#features)
-- [Future](#further-development)
-- [License](#license)
+<div align="center">
+  <p align="center">
+    <a href="#description"><strong>Description</strong></a>
+    ·
+    <a href="#link"><strong>Link</strong></a>
+    ·
+    <a href="#features"><strong>Features</strong></a>
+    ·
+    <a href="#further-development"><strong>Further Development</strong></a>
+    ·
+    <a href="#license"><strong>License</strong></a>
+  </p>
+</div>
 
 ## Description
 
@@ -37,3 +44,6 @@ In future dev, will consider implementing the following:
 ### License
 
 Covered under the [MIT](license.txt) license.
+
+<!-- Alternative Table of COntents -->
+<!-- &nbsp;   &nbsp;   &nbsp;   &nbsp;   [Description](#description)&nbsp;   &nbsp;   &nbsp;   &nbsp;   |&nbsp;   &nbsp;   &nbsp;   &nbsp;   [Link](#link)&nbsp;   &nbsp;   &nbsp;   &nbsp;   |&nbsp;   &nbsp;   &nbsp;   &nbsp;   [Features](#features)&nbsp;   &nbsp;   &nbsp;   &nbsp;   |&nbsp;   &nbsp;   &nbsp;   &nbsp;   [Future](#further-development)&nbsp;   &nbsp;   &nbsp;   &nbsp;   |&nbsp;   &nbsp;   &nbsp;   &nbsp;   [License](#license) -->
