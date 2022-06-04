@@ -75,9 +75,9 @@ a {
     margin: 1.2rem;
 }
 
-#contactCard {
+/* #contactCard {
     padding-bottom: 5rem;
-}
+} */
 
 .titles {
 
@@ -189,6 +189,10 @@ img {
         flex-wrap: wrap;
         flex-direction: column;
         align-items: center;
+        max-width: fit-content;
+    }
+
+    .form {
         max-width: fit-content;
     }
 
