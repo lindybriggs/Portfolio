@@ -3,7 +3,7 @@ import { validateEmail } from "../utils/helpers";
 
 const styles = {
     textDecoration: "none",
-    padding: "3rem",
+    padding: "2rem",
     color: "rgb(44, 62, 53)"
 }
 
@@ -48,13 +48,29 @@ export default function Contact() {
         <section id="contactCard" className="card">
             <div className='card-body'>
                 <h2 id="Contact" className="card-title text-center lh-lg">CONTACT</h2>
-                <section className="text-center">
-                    <p className="space d-inline"><a style={styles} href="https://github.com/lindybriggs">GitHub</a></p>
-                    <p className="space d-inline"><a style={styles} href="https://www.linkedin.com/in/lindy-briggs">LinkedIn</a></p>
-                    <p className="space d-inline"><a style={styles} href="mailto: briggs.lindy@yahoo.com">Email</a></p>
+                <section className="text-center my-3">
+
+                    <p className="space d-inline">
+                        <a style={styles} target="_blank" rel="noopener noreferrer" href="https://github.com/lindybriggs">
+                            <i class="fab fa-github fa-2x" aria-hidden="true"></i>
+                        </a></p>
+                    <p className="space d-inline">
+                        <a style={styles} target="_blank" rel="noopener noreferrer" href="https://www.linkedin.com/in/lindy-briggs/">
+                            <i class="fab fa-linkedin fa-2x" aria-hidden="true"></i>
+                        </a></p>
+                    <p className="space d-inline">
+                        <a style={styles} target="_blank" rel="noopener noreferrer" href="mailto:briggs.lindy@yahoo.com">
+                            <i class="fas fa-envelope fa-2x" aria-hidden="true"></i>
+                        </a></p>
+                    <p className="space d-inline">
+                        <a style={styles} target="_blank" rel="noopener noreferrer" href="https://drive.google.com/file/d/1b-LsVq1alS6q4p9Jo7JQcQMyMVoedzOl/view?usp=sharing">
+                            <i class="fas fa-file-pdf fa-2x" aria-hidden="true"></i>
+                        </a></p>
+
                 </section>
-                <div className="container">
-                    <form className="form row justify-content-center">
+
+                {/* <div className="container"> */}
+                    <form className="form row justify-content-center mx-1">
                         <div className="col-sm-8 col-md-3">
                             <input
                                 value={email}
@@ -90,7 +106,7 @@ export default function Contact() {
                         </div>
                     </form>
                     <p className="text-center">Note: form backend currently inactive</p>
-                </div>
+                {/* </div> */}
                 {errorMessage && (
                     <div>
                         <p className="error-text">{errorMessage}</p>
@@ -100,4 +116,5 @@ export default function Contact() {
         </section>
     )
 }
+
 
