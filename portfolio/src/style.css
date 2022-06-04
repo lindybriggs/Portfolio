@@ -11,25 +11,26 @@
 }
 
 header {
-    display:flex;
+    display: flex;
     width: 100%;
     justify-content: space-between;
     align-items: center;
     background-color: rgb(120, 165, 204);
-    color:var(--light);
+    color: var(--light);
 }
 
 nav ul {
-    display:flex;
+    display: flex;
     justify-content: space-between;
     align-items: flex-end;
     min-width: 360px;
     list-style: none;
 }
 
-h1, nav {
-margin: 2% 4% 2% 3%;
-justify-content: space-between;
+h1,
+nav {
+    margin: 2% 4% 2% 3%;
+    justify-content: space-between;
 }
 
 h1 {
@@ -37,7 +38,7 @@ h1 {
 }
 
 li a {
-    color:var(--light);
+    color: var(--light);
     text-decoration: none;
     font-size: 1.2rem;
 }
@@ -53,7 +54,7 @@ a {
 }
 
 .mainImage {
-    height: 400px;
+    /* height: 400px; */
     width: 100%;
     margin-bottom: 25px;
     /* background-image: url("../Images/self-photo.jpg"); */
@@ -68,7 +69,7 @@ a {
 }
 
 .card {
-    display:flex;
+    display: flex;
     min-width: 98%;
     justify-content: center;
     margin: 1.2rem;
@@ -85,7 +86,7 @@ a {
 }
 
 .content {
-    font-size:1.19rem;
+    font-size: 1.19rem;
     width: 68%;
     min-height: 80%;
     padding-right: 1rem;
@@ -99,7 +100,7 @@ h2 {
     color: rgb(120, 165, 204);
     background-color: var(--light);
     font-size: large;
-    font-weight:bolder;
+    font-weight: bolder;
 }
 
 .try,
@@ -121,12 +122,12 @@ h3 {
     border: solid .05rem;
     border-color: rgba(192, 203, 204, 50%);
     border-radius: 5px;
-    top:-0.5rem;
-    left:-0.5rem
+    top: -0.5rem;
+    left: -0.5rem
 }
 
 .bigWork {
-    width:88%;
+    width: 88%;
 }
 
 .otherWork1,
@@ -161,22 +162,34 @@ img {
         flex-wrap: wrap;
         flex-direction: column;
         align-items: center;
-        }
+    }
+
     .content img {
-        width:85%;
+        width: 85%;
         align-items: center;
     }
 
     .titles {
-        padding:1rem;
+        padding: 1rem;
     }
 
-    }
-    
+}
+
 @media screen and (max-width: 768px) {
 
     header {
         flex-direction: column;
+    }
+
+}
+
+@media screen and (max-width: 600px) {
+
+    .card {
+        flex-wrap: wrap;
+        flex-direction: column;
+        align-items: center;
+        max-width: fit-content;
     }
 
 }

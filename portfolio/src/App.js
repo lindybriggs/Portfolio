@@ -34,7 +34,7 @@ export default function App() {
   const handlePageChange = (page) => setCurrentPage(page);
 
   return (
-    <div id="column">
+    <div id="column" className='row'>
 
       <header id="Home">
         <h1>Lindy Briggs</h1>
@@ -45,7 +45,7 @@ export default function App() {
         <img src={selfPhoto} alt="self" className="mainImage"/>
       </section>
 
-      <main id="all">
+      <main id="all" className='col-12'>
         <About></About>
         <Work></Work>
         <Contact></Contact>
