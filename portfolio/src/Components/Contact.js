@@ -46,55 +46,57 @@ export default function Contact() {
 
     return (
         <section id="contactCard" className="card">
-            <h2 id="Contact" className="card-title text-center lh-lg">CONTACT</h2>
-            <section className="text-center">
-                <p className="space d-inline"><a style={styles} href="https://github.com/lindybriggs">GitHub</a></p>
-                <p className="space d-inline"><a style={styles} href="https://www.linkedin.com/in/lindy-briggs">LinkedIn</a></p>
-                <p className="space d-inline"><a style={styles} href="mailto: briggs.lindy@yahoo.com">Email</a></p>
-            </section>
-            <div>
-                <form className="form row justify-content-center">
-                    <div className="col-sm-8 col-md-3">
-                        <input
-                            value={email}
-                            name="email"
-                            type="email"
-                            onChange={handleInputChange}
-                            placeholder="email"
-                            className="form-control"
-                        />
-                    </div>
-                    <div className="col-sm-8 col-md-3">
-                        <input
-                            value={name}
-                            name="name"
-                            type="text"
-                            onChange={handleInputChange}
-                            placeholder="name"
-                            className="form-control"
-                        />
-                    </div>
-                    <div className="col-sm-8 col-md-3">
-                        <input
-                            value={message}
-                            name="message"
-                            type="text"
-                            onChange={handleInputChange}
-                            placeholder="message"
-                            className="form-control"
-                        />
-                    </div>
-                    <div className="col-sm-8 col-md-3">
-                        <button className="btn btn-secondary" type="button" onClick={handleFormSubmit}>Submit</button>
-                    </div>
-                </form>
-                <p className="text-center">Note: form backend currently inactive</p>
-            </div>
-            {errorMessage && (
-                <div>
-                    <p className="error-text">{errorMessage}</p>
+            <div className='card-body'>
+                <h2 id="Contact" className="card-title text-center lh-lg">CONTACT</h2>
+                <section className="text-center">
+                    <p className="space d-inline"><a style={styles} href="https://github.com/lindybriggs">GitHub</a></p>
+                    <p className="space d-inline"><a style={styles} href="https://www.linkedin.com/in/lindy-briggs">LinkedIn</a></p>
+                    <p className="space d-inline"><a style={styles} href="mailto: briggs.lindy@yahoo.com">Email</a></p>
+                </section>
+                <div className="container">
+                    <form className="form row justify-content-center">
+                        <div className="col-sm-8 col-md-3">
+                            <input
+                                value={email}
+                                name="email"
+                                type="email"
+                                onChange={handleInputChange}
+                                placeholder="email"
+                                className="form-control"
+                            />
+                        </div>
+                        <div className="col-sm-8 col-md-3">
+                            <input
+                                value={name}
+                                name="name"
+                                type="text"
+                                onChange={handleInputChange}
+                                placeholder="name"
+                                className="form-control"
+                            />
+                        </div>
+                        <div className="col-sm-8 col-md-3">
+                            <input
+                                value={message}
+                                name="message"
+                                type="text"
+                                onChange={handleInputChange}
+                                placeholder="message"
+                                className="form-control"
+                            />
+                        </div>
+                        <div className="col-sm-8 col-md-3">
+                            <button className="btn btn-secondary" type="button" onClick={handleFormSubmit}>Submit</button>
+                        </div>
+                    </form>
+                    <p className="text-center">Note: form backend currently inactive</p>
                 </div>
-            )}
+                {errorMessage && (
+                    <div>
+                        <p className="error-text">{errorMessage}</p>
+                    </div>
+                )}
+            </div>
         </section>
     )
 }
