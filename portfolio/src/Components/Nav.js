@@ -11,6 +11,7 @@ const inactive = {
 export default function Nav({ currentPage, handlePageChange }) {
     console.log(currentPage)
     return (
+        // className="navbar sticky-top"
         <nav>
             <ul>
                 <li>

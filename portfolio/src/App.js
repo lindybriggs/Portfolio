@@ -1,6 +1,6 @@
 import './App.css';
 import React, { useState } from 'react';
-import Navbar from 'react-bootstrap/Navbar'
+import Navbarr from './Components/Navbar'
 import Nav from './Components/Nav';
 import About from './Components/About';
 import Work from './Components/Work';
@@ -38,6 +38,7 @@ export default function App() {
 
       <header id="Home">
         <h1>Lindy Briggs</h1>
+        {/* <Navbarr></Navbarr> */}
         <Nav currentPage={currentPage} handlePageChange={handlePageChange} ></Nav>
       </header>
 
