@@ -3,11 +3,12 @@ import React, { useState } from 'react';
 import Navbarr from './Components/Navbar'
 import Nav from './Components/Nav';
 import About from './Components/About';
-import Work from './Components/Work';
+import Projects from './Components/Projects';
 import Contact from './Components/Contact';
 import Resume from './Components/Resume';
 import Footer from './Components/Footer'
 import selfPhoto from './Images/self-photo.jpg'
+import bigPic from './Images/mountains.JPG'
 
 export default function App() {
 
@@ -22,8 +23,8 @@ export default function App() {
     if (currentPage === 'About') {
       return <About />;
     }
-    if (currentPage === 'Work') {
-      return <Work />;
+    if (currentPage === 'Projects') {
+      return <Projects />;
     }
     if (currentPage === 'Contact') {
       return <Contact />;
@@ -34,7 +35,7 @@ export default function App() {
   const handlePageChange = (page) => setCurrentPage(page);
 
   return (
-    <div id="column" className='row'>
+    <div id="column" >
 
       <header id="Home">
         <h1>Lindy Briggs</h1>
@@ -42,13 +43,14 @@ export default function App() {
         <Nav currentPage={currentPage} handlePageChange={handlePageChange} ></Nav>
       </header>
 
-      <section >
+      {/* <section >
         <img src={selfPhoto} alt="self" className="mainImage"/>
-      </section>
+      </section> */}
+      <img src={bigPic} className="img-fluid" alt="Responsive image"></img>
 
       <main id="all" className='col-12'>
         <About></About>
-        <Work></Work>
+        <Projects></Projects>
         <Contact></Contact>
         <Resume></Resume>
       </main>

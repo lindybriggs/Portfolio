@@ -63,14 +63,13 @@ export default function Contact() {
                             <i class="fas fa-envelope fa-2x" aria-hidden="true"></i>
                         </a></p>
                     <p className="space d-inline">
-                        <a style={styles} target="_blank" rel="noopener noreferrer" href="https://drive.google.com/file/d/1b-LsVq1alS6q4p9Jo7JQcQMyMVoedzOl/view?usp=sharing">
+                        <a style={styles} target="_blank" rel="noopener noreferrer" href="https://drive.google.com/file/d/17ircoVqvQXj4jCHsTpzbqCfAqwMjQ07D/view?usp=sharing">
                             <i class="fas fa-file-pdf fa-2x" aria-hidden="true"></i>
                         </a></p>
 
                 </section>
 
-                {/* <div className="container"> */}
-                    <form className="form row justify-content-center mx-1">
+                    {/* <form className="form row justify-content-center mx-1">
                         <div className="col-sm-8 col-md-3">
                             <input
                                 value={email}
@@ -106,12 +105,11 @@ export default function Contact() {
                         </div>
                     </form>
                     <p className="text-center">Note: form backend currently inactive</p>
-                {/* </div> */}
                 {errorMessage && (
                     <div>
                         <p className="error-text">{errorMessage}</p>
                     </div>
-                )}
+                )} */}
             </div>
         </section>
     )
