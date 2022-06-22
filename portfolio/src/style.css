@@ -36,6 +36,15 @@ nav ul li {
     padding-left: 0;
 }
 
+#projectImg {
+    height: 14vw;
+    object-fit: cover
+}
+
+#projectText {
+    height: 15vw;
+}
+
 h1,
 nav {
     margin: 2% 4% 2% 3%;
@@ -188,6 +197,10 @@ h3 {
 
     header {
         flex-direction: column;
+    }
+
+    #projectImg {
+        height: auto;
     }
 
 }
