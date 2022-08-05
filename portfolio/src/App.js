@@ -37,7 +37,7 @@ export default function App() {
   return (
     <div id="column" >
 
-      <header id="Home">
+      <header id="Home" className='sticky-top'>
         <h1>Lindy Briggs</h1>
         {/* <Navbarr></Navbarr> */}
         <Nav currentPage={currentPage} handlePageChange={handlePageChange} ></Nav>

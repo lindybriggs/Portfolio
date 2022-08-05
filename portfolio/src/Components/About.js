@@ -20,7 +20,9 @@ export default function About() {
                 <div className='row justify-content-center py-3 card-body'>
                     <img className='col-sm-9 col-md-3' style={imageStyle} src={headShot} alt="developer head shot"></img>
                     <p className="col-sm-9 col-md-7 text-justify" style={paragraphStyle}>
-                        Full-stack web developer leveraging analytical marketing and media planning background to improve web efficiency and system intuitiveness. Certified in full stack development from Northwestern Bootcamps. Known as an organized, detail-oriented team player with a passion for problem solving.
+                        Full stack web developer with a passion for problem solving.
+                        Leveraging analytical and strategic marketing background to improve web efficiency and system intuitiveness - keeping the end user in mind.
+                        Excited to work hard, learn, grow, and develop long-term.
                     </p>
                 </div>
             </div>
