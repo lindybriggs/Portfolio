@@ -7,7 +7,7 @@ export default function Resume() {
             <div className='card-body'>
                 <h2 id="Resume" className="card-title text-center lh-lg">RESUME</h2>
                 <section>
-                    <h5 className="text-center" ><img style={{ maxWidth: "2.2rem" }} src={driveLogo} alt="google drive logo"></img><a style={{ textDecoration: 'none' }} target="_blank" rel="noopener noreferrer" href="https://drive.google.com/file/d/17ircoVqvQXj4jCHsTpzbqCfAqwMjQ07D/view?usp=sharing">view pdf</a></h5>
+                    <h5 className="text-center" ><img style={{ maxWidth: "2.2rem" }} src={driveLogo} alt="google drive logo"></img><a style={{ textDecoration: 'none' }} target="_blank" rel="noopener noreferrer" href="https://drive.google.com/file/d/1n6QhvcY4jyo33Y5MEH3WmQ4mKjh8KGJM/view?usp=sharing">view pdf</a></h5>
                     {/* <h4>Developer Proficiencies</h4> */}
                     <p className="text-center"> HTML5 | CSS3 | ES6 | JavaScript | React.js | Node.js | Express.js | SQL | MySQL | Sequelize | MongoDB | Mongoose | GraphQL | Git | NPM | REST APIs | Agile Methodologies | Testing</p>
                 </section>

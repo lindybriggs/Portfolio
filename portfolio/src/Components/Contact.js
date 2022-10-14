@@ -63,7 +63,7 @@ export default function Contact() {
                             <i class="fas fa-envelope fa-2x" aria-hidden="true"></i>
                         </a></p>
                     <p className="space d-inline">
-                        <a style={styles} target="_blank" rel="noopener noreferrer" href="https://drive.google.com/file/d/17ircoVqvQXj4jCHsTpzbqCfAqwMjQ07D/view?usp=sharing">
+                        <a style={styles} target="_blank" rel="noopener noreferrer" href="https://drive.google.com/file/d/1n6QhvcY4jyo33Y5MEH3WmQ4mKjh8KGJM/view?usp=sharing">
                             <i class="fas fa-file-pdf fa-2x" aria-hidden="true"></i>
                         </a></p>
 
